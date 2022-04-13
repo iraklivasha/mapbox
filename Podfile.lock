@@ -1,0 +1,58 @@
+PODS:
+  - Alamofire (5.5.0)
+  - MapboxCommon (21.2.0)
+  - MapboxCoreMaps (10.4.2):
+    - MapboxCommon (~> 21.2)
+  - MapboxMaps (10.4.2):
+    - MapboxCommon (= 21.2.0)
+    - MapboxCoreMaps (= 10.4.2)
+    - MapboxMobileEvents (= 1.0.7)
+    - Turf (~> 2.0)
+  - MapboxMobileEvents (1.0.7)
+  - Nuke (10.7.1)
+  - ReSwift (6.1.0)
+  - SnapKit (5.0.1)
+  - Turf (2.3.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - MapboxMaps (= 10.4.2)
+  - Nuke (from `https://github.com/kean/Nuke`, branch `master`)
+  - ReSwift
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - MapboxCommon
+    - MapboxCoreMaps
+    - MapboxMaps
+    - MapboxMobileEvents
+    - ReSwift
+    - SnapKit
+    - Turf
+
+EXTERNAL SOURCES:
+  Nuke:
+    :branch: master
+    :git: https://github.com/kean/Nuke
+
+CHECKOUT OPTIONS:
+  Nuke:
+    :commit: 04953e2cde7022574fda9e91d7cbe9232259bc15
+    :git: https://github.com/kean/Nuke
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  MapboxCommon: eb826fdc45e8b77f87aca2519986d992fd4881b7
+  MapboxCoreMaps: 227b33943eb5b257fdebc56474007e214981f43d
+  MapboxMaps: 7a613c740ceb4179e839727494e192371b237546
+  MapboxMobileEvents: f7f3e8daeb4b83688ae62a4172dce79169a97233
+  Nuke: 279f17a599fd1c83cf51de5e0e1f2db143a287b0
+  ReSwift: eab3c01e4279ba81b54a61e4fd6499634d20123a
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  Turf: d8d52444483c968cf2d65b8b54640f8faf4dda03
+
+PODFILE CHECKSUM: f508a1c97c8e6463fd7e80ac91c7d8cd8ab56939
+
+COCOAPODS: 1.11.2
